@@ -16,6 +16,7 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
-	
-
+	//Adding Skeletal Mesh Component for a socket
+	UPROPERTY(EditAnywhere, Category= Combat);
+	TObjectPtr<USkeletalMeshComponent> Weapon;
 };
